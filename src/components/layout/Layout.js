@@ -1,8 +1,9 @@
 import React from 'react';
-import Leftsidebar from "../LeftSidebar/Leftsidebar";
-import RightSidebar from "../RightSidebar/RightSidebar";
+import Leftsidebar from "../leftSidebar/Leftsidebar";
+import RightSidebar from "../rightSidebar/RightSidebar";
 import useStyles from "./Style";
 import {Divider} from "@material-ui/core";
+import Home from "../home/Home";
 
 const Layout = () => {
     const classes = useStyles();
@@ -10,7 +11,7 @@ const Layout = () => {
         <div className={classes.root}>
             <RightSidebar/>
             <Divider orientation={"vertical"}  className={classes.divider}/>
-            <div className={classes.main}>slam</div>
+                <Home/>
             <Divider orientation={"vertical"}  className={classes.divider}/>
             <Leftsidebar />
 

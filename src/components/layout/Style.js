@@ -9,10 +9,6 @@ const useStyles = makeStyles({
         overflow:"hidden"
 
     },
-
-    main:{
-        flex:1,
-    },
     divider:{
         height:'100%',
         width:1,
